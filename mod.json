@@ -2,8 +2,11 @@
   "Id": "No Strobe Fabricator",
   "DisplayName": "No Strobe Fabricator",
   "Author": "yw2theorycrafter, kairality",
-  "Version": "0.0.1",
+  "Version": "0.0.0.1",
   "Enable": true,
   "Game": "Subnautica",
-  "AssemblyName": "No Strobe Fabricator.dll"
+  "AssemblyName": "No Strobe Fabricator.dll",
+  "NexusId": {
+      "Subnautica": "843"
+   }
 }
