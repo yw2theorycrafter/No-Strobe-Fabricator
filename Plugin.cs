@@ -3,7 +3,7 @@ using BepInEx;
 using BepInEx.Logging;
 using HarmonyLib;
 
-namespace No_Strobe_Fabricator
+namespace com.yw2theorycrafter.nostrobefabricator
 {
     [BepInPlugin(MyGuid, PluginName, VersionString)]
     public class Plugin : BaseUnityPlugin
@@ -23,6 +23,7 @@ namespace No_Strobe_Fabricator
 
             // register harmony patches, if there are any
             Harmony.CreateAndPatchAll(Assembly, $"{MyGuid}");
+
             Logger.LogInfo($"Plugin {MyGuid} is loaded!");
         }
     }
